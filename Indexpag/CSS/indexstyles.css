@@ -1,0 +1,967 @@
+@import url('http://fonts.cdnfonts.com/css/candy-beans');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    font-family: 'Candy Beans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+/* Div que engloba tudo */
+.all-divs-pag {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+
+}
+
+/* nav superior */
+
+nav {
+    width: 100%;
+    height: 13%;
+    display: flex;
+    position: fixed;
+    z-index: 99;
+    background-color: black;
+    opacity: 90%;
+    
+}
+
+nav .icon-navbar {
+    margin: auto 40px auto 20px;
+    opacity: 100%;
+    font-weight: bold;
+}
+
+.icon-navbar-img {
+    width: 120px;
+    height: 50px;
+    opacity: 100%;
+}
+
+/* Remoção do efeito no hiperlink */
+nav a {
+    text-decoration: none;
+}
+
+/* Posicionamento na direita do botão "sair" */
+
+nav ul {
+    position: absolute;
+    right: 3%;
+    left: 90%;
+    list-style: none;
+
+}
+
+/* Titulo da nav */
+
+nav .div-title {
+    
+    right: 20%;
+}
+
+nav .navtitle {
+    position: absolute;
+    text-decoration: none;
+    margin: 0;
+    padding: 0; 
+    top: 10%;
+    left: 38%;
+    color: yellow;
+    transition: 0.3s;
+
+}
+
+.navtitle:hover {
+    color: white;
+}
+
+/* correção de margem e remoção do estilo do texto "sair"*/
+
+nav .li-exit {
+    list-style: none;
+    margin: 20px 20px auto 40px;
+    margin-bottom: 10px;
+    
+}
+
+.li-exit {
+    font-size: 32px;
+}
+
+/* Mudando a cor do hiperlink "sair". */
+
+.hiperlink-navbar{
+    color: yellow;
+    transition: 0.3s;
+}
+
+.hiperlink-navbar:hover{
+    color: white;
+}
+
+/* Home icons */
+
+.home-icons {
+    width: 30px;
+    height: 505px;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    z-index: 99;
+    border-radius: 50px;
+    background: white;
+    animation-duration: 0.5s;
+    animation-name: home-animation;
+    animation-iteration-count: 8.5;
+    animation-direction: alternate;
+}
+
+@keyframes home-animation {
+    from {
+      right: 5%;
+      background: rgb(255, 0, 0);
+    }
+  
+    to {
+      right: 2%;
+      background: white;
+    }
+  }
+
+/* Tohru-Icon*/
+
+.tohru-home-icon {
+    position: absolute;
+    margin: 5px 5px 5px 7px;
+    width: 45px;
+    height: 45px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.tohru-home-icon:hover  {
+    background: #cd3935;
+    
+}
+
+.tohru-home-icon-img {
+    position: relative;
+    margin: 2.5px;
+    width: 40px;
+    height: 40px;
+    background: rgb(252, 252, 252);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.tohru-home-icon-img:hover {
+background: #cd3935;
+}
+
+/* Kobayashi-icon */
+.kobayashi-home-icon {
+    position: absolute;
+    margin: 5px 5px 5px 7px;
+    top: 50px;
+    width: 45px;
+    height: 45px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.kobayashi-home-icon:hover {
+    background: #2d7913;
+}
+
+.kobayashi-home-icon-img {
+    position: relative;
+    margin: 2.5px;
+    width: 40px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.kobayashi-home-icon-img:hover {
+background: #2d7913;
+}
+
+/* Kanna-icon */
+.kanna-home-icon {
+    position: absolute;
+    margin: 5px 5px 5px 7px;
+    top: 100px;
+    width: 45px;
+    height: 45px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.kanna-home-icon:hover {
+    background: #d984a7;
+}
+
+.kanna-home-icon-img {
+    position: relative;
+    margin: 2.5px;
+    width: 40px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.kobayashi-home-icon-img:hover {
+background: #d984a7;
+}
+
+/* Elma-icon */
+.elma-home-icon {
+    position: absolute;
+    margin: 5px 5px 5px 7px;
+    top: 150px;
+    width: 45px;
+    height: 45px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.elma-home-icon:hover {
+    background: #1876bc;
+}
+
+.elma-home-icon-img {
+    position: relative;
+    margin: 2.5px;
+    width: 40px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.elma-home-icon-img:hover {
+background: #1876bc;
+}
+
+/* Fafnir-icon */
+.fafnir-home-icon {
+    position: absolute;
+    margin: 5px 5px 5px 7px;
+    top: 200px;
+    width: 45px;
+    height: 45px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.fafnir-home-icon:hover {
+    background: #1d1d1d;
+}
+
+.fafnir-home-icon-img {
+    position: relative;
+    margin: 2.5px;
+    width: 40px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.fafnir-home-icon-img:hover {
+background: #1d1d1d;
+}
+
+/* Ilulu-icon */
+.ilulu-home-icon {
+    position: absolute;
+    margin: 5px 5px 5px 7px;
+    top: 250px;
+    width: 45px;
+    height: 45px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.ilulu-home-icon:hover {
+    background: #a7275b;
+}
+
+.ilulu-home-icon-img {
+    position: relative;
+    margin: 2.5px;
+    width: 40px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.ilulu-home-icon-img:hover {
+background: #a7275b;
+}
+
+/* Saikawa-icon */
+.saikawa-home-icon {
+    position: absolute;
+    margin: 5px 5px 5px 7px;
+    top: 300px;
+    width: 45px;
+    height: 45px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.saikawa-home-icon:hover {
+    background: #cb610d;
+}
+
+.saikawa-home-icon-img {
+    position: relative;
+    margin: 2.5px;
+    width: 40px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.saikawa-home-icon-img:hover {
+background: #cb610d;
+}
+
+/* Shouta-icon */
+.shouta-home-icon {
+    position: absolute;
+    margin: 5px 5px 5px 7px;
+    top: 350px;
+    width: 45px;
+    height: 45px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.shouta-home-icon:hover {
+    background: #006c5e;
+}
+
+.shouta-home-icon-img {
+    position: relative;
+    margin: 2.5px;
+    width: 40px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.shouta-home-icon-img:hover {
+background: #006c5e;
+}
+
+/* Lucoa-icon */
+.lucoa-home-icon {
+    position: absolute;
+    margin: 5px 5px 5px 7px;
+    top: 400px;
+    width: 45px;
+    height: 45px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.lucoa-home-icon:hover {
+    background: #7752a7;
+}
+
+.lucoa-home-icon-img {
+    position: relative;
+    margin: 2.5px;
+    width: 40px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.lucoa-home-icon-img:hover {
+background: #7752a7;
+}
+
+/* Main-pag-icon */
+.main-pag-home-icon {
+    position: absolute;
+    margin: 5px 5px 5px 7px;
+    top: 450px;
+    width: 45px;
+    height: 45px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.main-pag-home-icon:hover {
+    background: yellow;
+}
+
+.main-pag-home-icon-img {
+    position: relative;
+    margin: 2.5px;
+    width: 40px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.main-pag-home-icon-img:hover {
+background: yellow;
+}
+
+h1 {
+    font-size: 32pt;
+    color: rgb(255, 255, 255);
+     -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+}
+
+/* Div de apresentação: Tohru Apresentação */
+.tohru-apresentation {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: yellow;
+}
+/* Div esquerda da Tohru apresentação */
+.ta-left {
+    width: 40%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0px 0px 20px;
+    z-index: 2;
+}
+
+/*Div direita da Tohru apresentação */
+.ta-right {
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Tohru-Apresentation-img {
+    width: auto;
+    height: 100%; 
+    position: absolute;
+    right: 0%;
+    transform: scaleX(-1);
+       
+}
+
+/* Tohru-Session */
+
+/* Divisão de tela */
+.tohru-session {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    background: #fa8e82;
+}
+
+/*Divisão das partes da tela */
+.ts-left {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0px 0px 20px;
+}
+
+/*Tohru divisão direita */
+
+.ts-right {
+    width: 60%;
+    height: 100%;
+    align-items: right;
+    justify-content: center;
+}
+
+.tohru-session-img {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    right: 0%;
+
+}
+
+/*Kobayashi session */
+
+.kobayashi-session {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    background: #5dd429;
+}
+
+/* Divisão de lados Tohru */
+
+.ks-left {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0px 0px 20px;
+}
+
+/* Divisão direita Kobayashi */
+
+.ks-right {
+    width: 70%;
+    height: 100%;
+    align-items: right;
+    justify-content: center;
+    
+}
+
+.ks-img {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    transform: scaleX(-1);
+    right: 0%;
+}
+
+/* Kanna Session */
+
+.kanna-session {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    background: #fee9f2;
+}
+
+/*Divisão das partes da tela Kanna */
+.kn-left {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0px 0px 20px;
+}
+
+/* Lado direito */
+
+.kn-right {
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.kn-img {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    transform: scaleX(-1);
+    right: 0%;
+    
+}
+
+/* Elma Sessão */
+
+.elma-session {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    background: #30d0ff;
+}
+
+/*Divisão das partes da tela Elma */
+.el-left {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0px 0px 20px;
+}
+
+/* Divisão direita */ 
+
+.el-right {
+    width: 40%;
+    height: 100%;
+    align-items: left;
+    justify-content: left;
+    
+}
+
+.el-img {
+    width: auto;
+    height: 100%;
+}
+
+/* Takiya Sessão */
+
+.takiya-session {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    background: #1585ad;
+}
+
+/*Divisão das partes da tela */
+.tk-left {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0px 0px 20px;
+}
+
+/* Divisão direita */
+
+.tk-right {
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    justify-content: left;
+}
+
+.tk-img {
+    width: auto;
+    height: 100%;
+
+}
+
+/* Fafnir Sessão */
+
+.fafnir-session {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: #4c4c4c;
+}
+
+/*Divisão das partes da tela */
+.faf-left {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0px 0px 20px;
+}
+
+.faf-right {
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    justify-content: left;
+}
+
+.faf-img {
+    width: auto;
+    height: 100%;
+
+}
+
+/* Ilulu Sessão */
+
+.ilulu-session {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    background: #fb7ecb;
+}
+
+/*Divisão das partes da tela */
+.il-left {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0px 0px 20px;
+}
+
+.il-right {
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    justify-content: left;
+}
+
+.il-img {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    right: 3%;
+
+}
+
+/* Saikawa Sessão */
+
+.saikawa-session {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    background: #ff7f27;
+}
+
+/*Divisão das partes da tela */
+.sai-left {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0px 0px 20px;
+}
+
+.sai-right {
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    justify-content: left;
+}
+
+.sai-img {
+    width: auto;
+    height: 100%;
+    transform: scaleX(-1);
+
+}
+
+/* Shouta Sessão */
+
+.shouta-session {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    background: #00cbc1;
+}
+
+/*Divisão das partes da tela */
+.shou-left {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0px 0px 20px;
+}
+
+.shou-right {
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    justify-content: left;
+}
+
+.shou-img {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    transform: scaleX(-1);
+    right: 2%;
+
+}
+
+/* Shouta Sessão */
+
+.quetza-session {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: #cea2ed;
+}
+
+/*Divisão das partes da tela */
+.que-left {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0px 0px 20px;
+}
+
+.que-right {
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    justify-content: left;
+}
+
+.que-img {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    transform: scaleX(-1);
+    right: 2%;
+
+}
+
+/* Botão para descer a tela na sessão da quetza*/
+
+/* formando o botão */
+.more-below {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    top: 90%;
+    right: 44%;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    border-radius: 50px;
+    opacity: 90%;
+    z-index: 95;
+}
+
+#check-more-below {  
+   display: none;
+}
+
+.buttom-more-below {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    border-radius: 80px;
+    transition: 0.2s ease-in-out;
+    
+}
+
+.more-below-section {
+    position: absolute;
+    left: 28%;
+    width: 50px;
+    height: 50px;
+    transition: 0.2s ease-in-out;
+}
+
+.more-below-icon {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    z-index: 50;
+   
+    transform: scaleY(-1);
+    transition: 0.2s;
+}
+
+.more-below-icon:hover{
+    transform: scaleY(1);
+    z-index: 50;
+    background: yellow;
+    
+}
+
+.about-the-user {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    background: rgb(0, 0, 0);
+}
+
+/* Div com minhas informações sobre mim */
+
+.social-network {
+    position: relative;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 0px 0px 20px;
+}
+
+.my-network {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    bottom: 1%;
+    left: 1%;
+}
+
+.about-right {
+    position: relative;
+    width: 60%;
+    height: 100%;
+}
+
+.text-about {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+
+}
+
+.kb-tap {
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    width: 500px;
+    border-radius: 50%;
+    float: right;
+    
+}
+
+.github-span, .twitter-span {
+    position: relative;
+    margin: 0px 0px 0px 10px;
+}
+
+.github-icon, .twitter-icon {
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 25px;
+
+}
+
+.twitter-a, .github-a {
+    position: relative;
+    margin-left: 2%;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.twitter-a:hover{
+    color: #00cbc1;
+}
+
+.github-a:hover {
+    color: gray;
+}
