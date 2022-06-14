@@ -7,7 +7,7 @@ function logar () {
     if (username.value = "admin" && senha.value == "123") {
         localStorage.setItem("acesso", true);
 
-        window.location.href = ("sites/indexpag/mainpag.html");
+        window.location.href = ("mainpag.html");
     }else{
         alert('usuario ou senha incorreto!')
     }
