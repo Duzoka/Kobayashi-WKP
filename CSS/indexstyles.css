@@ -77,7 +77,7 @@ nav .navtitle {
     padding: 0; 
     top: 10%;
     left: 38%;
-    color: yellow;
+    color: rgba(184, 184, 9, 0.801);
     transition: 0.3s;
 
 }
@@ -138,6 +138,14 @@ nav .li-exit {
       background: white;
     }
   }
+
+
+
+
+a:hover {
+    color: yellow;
+   
+}
 
 /* Tohru-Icon*/
 
@@ -527,6 +535,8 @@ h1 {
     display: flex;
     position: relative;
     background: #5dd429;
+    background-image: url(/Sites/Indexpag/Indexpag/wp.png);
+    background-size: cover;
 }
 
 /* Divisão de lados Tohru */
