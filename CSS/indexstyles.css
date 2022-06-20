@@ -6,7 +6,7 @@
 }
 body {
     margin: 0;
-    overflow: hidden;
+    
     color: rgb(255, 255, 255);
     font-family: 'Candy Beans', sans-serif;
 }
@@ -972,9 +972,11 @@ h1 {
     color: gray;
 }
 
-@media (max-width: 1440px){
- 
-    .home-icon {
-        bottom: 10%;
+@media (max-width: 1440px) {
+    
+    .home-icons {
+       bottom: 10%; 
     }
+
 }
+
