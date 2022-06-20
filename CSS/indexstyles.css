@@ -975,5 +975,5 @@ h1 {
 @media (max-width: 1440){
  
     .home-icon {
-        bottom? 10%;
+        bottom: 10%;
 }
