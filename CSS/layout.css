@@ -8,7 +8,7 @@ body {
 .main-login {
     width: 100vw;
     height: 100vh;
-    background: yellow  ;
+    background: rgb(209, 0, 17)  ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,19 +45,21 @@ body {
 
 .card-login {
     width: 60%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: #E7D1CD40;
+    background: #e7d1cd33;
     border-radius: 20px;
-    box-shadow: 0px 10px 40px #00000040;
+    box-shadow: 0px 10px 40px #000000a1;
     
 }
 
 .card-login > h1{
     color: rgb(255, 255, 255);
+    font-size: 60px;
     font-weight: 800;
     margin: 0;
     
@@ -86,12 +88,12 @@ body {
 }
 
 .textfield > label {
-    color: #F3F3F3;
+    color: #f7f7f7;
     margin-bottom: 10px;
 }
 
 .textfield > input::placeholder{
-    color:rgb(255, 251, 0)
+    color:rgb(145, 0, 0)
 }
 
 .btn-login {
@@ -104,7 +106,7 @@ body {
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 3px;
-    color:rgb(236, 236, 13);
+    color:rgb(8, 8, 8);
     background: whitesmoke;
     cursor: pointer;
     box-shadow: 0px 10px 40px #00000056;
