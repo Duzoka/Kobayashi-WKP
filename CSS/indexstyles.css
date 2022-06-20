@@ -971,3 +971,9 @@ h1 {
 .github-a:hover {
     color: gray;
 }
+
+@media (max-width: 1440){
+ 
+    .home-icon {
+        bottom? 10%;
+}
