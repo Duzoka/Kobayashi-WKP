@@ -140,6 +140,7 @@ nav .li-exit {
   }
 
 a:hover {
+    transition: .5s;
     color: yellow;
    
 }
