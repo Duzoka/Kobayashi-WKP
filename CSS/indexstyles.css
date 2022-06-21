@@ -980,3 +980,10 @@ h1 {
 
 }
 
+@media (max-width: 1366px) {
+    
+    .home-icons {
+       bottom: 3%; 
+    }
+
+}
