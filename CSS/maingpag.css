@@ -6,7 +6,7 @@
 }
 body {
     margin: 0;
-    
+    overflow: hidden;
     color: rgb(255, 255, 255);
     font-family: 'Candy Beans', sans-serif;
 }
@@ -837,60 +837,14 @@ h1 {
 
 }
 
-/* Botão para descer a tela na sessão da quetza*/
-
 /* formando o botão */
-.more-below {
-    position: relative;
-    width: 200px;
-    height: 100px;
-    top: 90%;
-    right: 44%;
-    justify-content: center;
-    background: rgb(255, 255, 255);
-    border-radius: 50px;
-    opacity: 90%;
-    z-index: 95;
-}
-
-#check-more-below {  
-   display: none;
-}
-
-.buttom-more-below {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    justify-content: center;
-    border-radius: 80px;
-    transition: 0.2s ease-in-out;
-    
-}
-
-.more-below-section {
-    position: absolute;
-    left: 28%;
-    width: 50px;
-    height: 50px;
-    transition: 0.2s ease-in-out;
-}
 
 .more-below-icon {
-    position: relative;
-    width: 70px;
-    height: 70px;
-    z-index: 50;
-   
-    transform: scaleY(-1);
-    transition: 0.2s;
+    width: 100px;
+    height: 100px;
 }
 
-.more-below-icon:hover{
-    transform: scaleY(1);
-    z-index: 50;
-    background: yellow;
-    
-}
+/* ...... */
 
 .about-the-user {
     width: 100vw;

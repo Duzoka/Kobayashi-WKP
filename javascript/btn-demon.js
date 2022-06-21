@@ -1,18 +1,4 @@
-const botao = document.querySelector('.check-more-below')
 
-// seleciona elemento
-let el = document.getElementById('quetza-session');
-let ol = document.getElementById('about-the-user');
-// utiliza método
-let elCoordenadas = el.getBoundingClientRect();
-let olCoordenadas = ol.getBoundingClientRect();
-// verificar as propriedades com as coord
-console.log(olCoordenadas);
-
-botao.addEventListener('click', () => {
-    window.scroll({elCoordenadas: window.location.href='#about-the-user'})
-
-})
 
 /* Barra sumindo */
 
