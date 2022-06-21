@@ -8,7 +8,7 @@ body {
 .main-login {
     width: 100vw;
     height: 100vh;
-    background: rgb(209, 0, 17)  ;
+    background: rgb(199, 1, 18)  ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,6 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
 
 }
@@ -29,7 +28,9 @@ body {
 }
 
 .tohru-img {
-    width: 55vw;
+    position: absolute;
+    width: 55rem;
+    bottom: 0%;
     border: 0;
     justify-content: center;
 }
@@ -51,7 +52,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: #e7d1cd33;
+    background: #ff00008f;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #000000a1;
     
