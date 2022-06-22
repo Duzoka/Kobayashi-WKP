@@ -927,7 +927,7 @@ h1 {
     color: gray;
 }
 
-@media (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
     
     .home-icons {
        bottom: 10%; 
@@ -938,10 +938,9 @@ h1 {
 
     }
     
-
 }
 
-@media (max-width: 1366px) {
+@media screen and (mind-width: 1366px) {
     
     .home-icons {
        bottom: 3%; 
