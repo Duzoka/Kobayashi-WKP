@@ -975,7 +975,7 @@ h2 {
         padding: 120px 0px 0px 20px;
 
     }
-    
+
 }
 
 @media screen and (min-width: 1366px) {
@@ -991,7 +991,11 @@ h2 {
 
     .ts-left, .ks-left, .kn-left, .el-left, .tk-left, .faf-left, .il-left, .sai-left, .shou-left, .que-left {
         padding: 10px 0px 0px 20px;
-}
+    }
+    .el-left {
+        padding-right: 180px;
+    
+    }
 
 }
 
