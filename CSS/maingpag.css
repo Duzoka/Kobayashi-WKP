@@ -449,7 +449,13 @@ background: yellow;
 h1 {
     font-size: 32pt;
     color: rgb(255, 255, 255);
-     -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+     
+}
+
+h2 {
+    font-size: 17pt;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
 }
 
 /* Div de apresentação: Tohru Apresentação */
@@ -571,7 +577,7 @@ h1 {
     height: 100%;
     display: flex;
     position: relative;
-    background: #fee9f2;
+    background: #f58bb9;
 }
 
 /*Divisão das partes da tela Kanna */
