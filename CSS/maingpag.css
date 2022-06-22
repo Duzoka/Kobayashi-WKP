@@ -83,7 +83,7 @@ nav .navtitle {
 }
 
 .navtitle:hover {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 /* correção de margem e remoção do estilo do texto "sair"*/
@@ -980,8 +980,13 @@ h2 {
 
 @media screen and (min-width: 1366px) {
     
+    nav {
+        height: 10%;
+    }
+    
     .home-icons {
-       bottom: 4%;
+       bottom: 2%;
+       right: 1%;
     }
 
 }
@@ -991,13 +996,91 @@ h2 {
         padding: 140px 0px 0px 20px;
 }
 
+    nav {
+        height: 10%;
+    }
+
     .home-icons {
+        width: 85px;
+        height: 825px;
         right: 2%;
-        bottom: 15%;
+        bottom: 2%;
     }
 
     h1, h2 {
         font-size: 32px;
     }
 
+    .tohru-home-icon, .kobayashi-home-icon, .kanna-home-icon, .takiya-home-icon, .elma-home-icon, .fafnir-home-icon, .ilulu-home-icon, .saikawa-home-icon, .shouta-home-icon, .lucoa-home-icon, .main-pag-home-icon
+    {
+        
+        width: 70px;
+        height: 70px;
+    }
+
+    .tohru-home-icon-img, .kobayashi-home-icon-img, .takiya-home-icon-img, .kanna-home-icon-img, .elma-home-icon-img, .fafnir-home-icon-img, .ilulu-home-icon-img, .saikawa-home-icon-img, .shouta-home-icon-img, .lucoa-home-icon-img, .main-pag-home-icon-img
+    {
+        
+        width: 65px;
+        height: 65px;
+    } 
+
+    .kobayashi-home-icon {
+        margin: 25px 5px 5px 7px;
+    }
+
+    .kanna-home-icon {
+        margin: 50px 5px 5px 7px;
+    }
+
+    .elma-home-icon {
+        margin: 75px 5px 5px 7px;
+    }
+
+    .takiya-home-icon {
+        margin: 100px 5px 5px 7px;
+    }
+
+    .fafnir-home-icon {
+        margin: 125px 5px 5px 7px;
+    }
+
+    .ilulu-home-icon {
+        margin: 150px 5px 5px 7px;
+    }
+
+    .saikawa-home-icon {
+        margin: 175px 5px 5px 7px;
+    }
+
+    .shouta-home-icon {
+        margin: 200px 5px 5px 7px;
+    }
+
+    .lucoa-home-icon {
+        margin: 225px 5px 5px 7px;
+    }
+
+    .main-pag-home-icon {
+        margin: 250px 5px 5px 7px;
+    }
+
+    .icon-navbar-img {
+        width: 190px;
+        height: 80px;
+        opacity: 100%;
+    }
+    
+    /* Posicionamento na direita do botão "sair" */
+    
+    /* Titulo da nav */
+    
+    .li-exit {
+        font-size: 48px;
+    }
+
+    .navtitle {
+        font-size: 48px;
+    }
+    
 }
