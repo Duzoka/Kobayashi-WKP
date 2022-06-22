@@ -113,8 +113,8 @@ nav .li-exit {
 /* Home icons */
 
 .home-icons {
-    width: 30px;
-    height: 505px;
+    width: 55px;
+    height: 555px;
     position: fixed;
     right: 3%;
     bottom: 3%;
@@ -266,11 +266,43 @@ background: #d984a7;
 background: #1876bc;
 }
 
+/* Takiya-icon */
+
+.takiya-home-icon {
+    position: absolute;
+    margin: 5px 5px 5px 7px;
+    top: 200px;
+    width: 45px;
+    height: 45px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.takiya-home-icon:hover {
+    background: #28c7ef;
+    
+}
+
+.takiya-home-icon-img {
+    position: relative;
+    margin: 2.5px;
+    width: 40px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.takiya-home-icon-img:hover {
+background: #28c7ef;
+}
+
 /* Fafnir-icon */
 .fafnir-home-icon {
     position: absolute;
     margin: 5px 5px 5px 7px;
-    top: 200px;
+    top: 250px;
     width: 45px;
     height: 45px;
     background: white;
@@ -300,7 +332,7 @@ background: #1d1d1d;
 .ilulu-home-icon {
     position: absolute;
     margin: 5px 5px 5px 7px;
-    top: 250px;
+    top: 300px;
     width: 45px;
     height: 45px;
     background: white;
@@ -330,7 +362,7 @@ background: #a7275b;
 .saikawa-home-icon {
     position: absolute;
     margin: 5px 5px 5px 7px;
-    top: 300px;
+    top: 350px;
     width: 45px;
     height: 45px;
     background: white;
@@ -360,7 +392,7 @@ background: #cb610d;
 .shouta-home-icon {
     position: absolute;
     margin: 5px 5px 5px 7px;
-    top: 350px;
+    top: 400px;
     width: 45px;
     height: 45px;
     background: white;
@@ -390,7 +422,7 @@ background: #006c5e;
 .lucoa-home-icon {
     position: absolute;
     margin: 5px 5px 5px 7px;
-    top: 400px;
+    top: 450px;
     width: 45px;
     height: 45px;
     background: white;
@@ -420,7 +452,7 @@ background: #7752a7;
 .main-pag-home-icon {
     position: absolute;
     margin: 5px 5px 5px 7px;
-    top: 450px;
+    top: 500px;
     width: 45px;
     height: 45px;
     background: white;
@@ -946,14 +978,26 @@ h2 {
     
 }
 
-@media screen and (mind-width: 1366px) {
+@media screen and (min-width: 1366px) {
     
     .home-icons {
-       bottom: 3%; 
+       bottom: 4%;
     }
 
 }
 
-@media (max-width: 4603px){
-    
+@media screen and (min-width: 1920px){
+    .ta-left, .ts-left, .ks-left, .kn-left, .el-left, .tk-left, .faf-left, .il-left, .sai-left, .shou-left, .que-left {
+        padding: 140px 0px 0px 20px;
+}
+
+    .home-icons {
+        right: 2%;
+        bottom: 15%;
+    }
+
+    h1, h2 {
+        font-size: 32px;
+    }
+
 }
