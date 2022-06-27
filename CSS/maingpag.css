@@ -968,7 +968,11 @@ h2 {
 @media screen and (min-width: 1440px) {
     
     .home-icons {
-       bottom: 10%; 
+       top: 20% 
+    }
+
+    h2 {
+        font-size: 28px;
     }
 
     .ta-left, .ts-left, .ks-left, .kn-left, .el-left, .tk-left, .faf-left, .il-left, .sai-left, .shou-left, .que-left {
